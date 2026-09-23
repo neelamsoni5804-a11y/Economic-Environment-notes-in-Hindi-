@@ -1,0 +1,224 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+
+
+/* Page Background */
+
+body{
+
+    min-height:100vh;
+    background:#f2f6fb;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:30px;
+
+}
+
+
+
+/* Main Container */
+
+.container{
+
+    width:90%;
+    max-width:900px;
+
+    background:#ffffff;
+
+    padding:45px 50px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0 8px 25px rgba(0,0,0,0.12);
+
+}
+
+
+
+/* Heading Section */
+
+header h1{
+
+    color:#123b63;
+
+    font-size:38px;
+
+    font-weight:700;
+
+    margin-bottom:12px;
+
+}
+
+
+
+header h2{
+
+    color:#555;
+
+    font-size:22px;
+
+    font-weight:500;
+
+    margin-bottom:25px;
+
+}
+
+
+
+/* Teacher Details */
+
+.teacher{
+
+    color:#333;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+
+
+.teacher strong{
+
+    color:#123b63;
+
+    font-size:25px;
+
+}
+
+
+
+/* PDF Buttons Area */
+
+.notes{
+
+    margin-top:40px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:16px;
+
+}
+
+
+
+/* PDF Links */
+
+.notes a{
+
+    display:block;
+
+    width:100%;
+
+    padding:15px 20px;
+
+
+    background:#123b63;
+
+    color:white;
+
+
+    text-decoration:none;
+
+    font-size:18px;
+
+    font-weight:500;
+
+
+    border-radius:8px;
+
+
+    transition:all 0.3s ease;
+
+}
+
+
+
+/* Hover Effect */
+
+.notes a:hover{
+
+    background:#1f5d95;
+
+    transform:translateY(-3px);
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    margin-top:40px;
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+
+
+/* Mobile Responsive */
+
+@media(max-width:600px){
+
+
+    .container{
+
+        width:95%;
+
+        padding:30px 20px;
+
+    }
+
+
+
+    header h1{
+
+        font-size:30px;
+
+    }
+
+
+
+    header h2{
+
+        font-size:18px;
+
+    }
+
+
+
+    .teacher{
+
+        font-size:16px;
+
+    }
+
+
+
+    .notes a{
+
+        font-size:16px;
+
+        padding:13px;
+
+    }
+
+}
